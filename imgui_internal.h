@@ -3107,7 +3107,7 @@ namespace ImGui
     IMGUI_API void          RenderDragDropTargetRect(const ImRect& bb);
 
     // Multi-Select API
-    IMGUI_API void          MultiSelectItemHeader(ImGuiID id, bool* p_selected);
+    IMGUI_API void          MultiSelectItemHeader(ImGuiID id, bool* p_selected, ImGuiButtonFlags* p_button_flags);
     IMGUI_API void          MultiSelectItemFooter(ImGuiID id, bool* p_selected, bool* p_pressed);
 
     // Internal Columns API (this is not exposed because we will encourage transitioning to the Tables API)
